@@ -1,6 +1,6 @@
-# Gerenciador de Tarefas - Experiência em TDD
+# Experiência em Test-Driven Development (TDD)
 
-Este projeto foi desenvolvido como parte da disciplina de Validação e Verificação de Software, e marca minha primeira experiência em Test-Driven Development (TDD). O objetivo foi implementar uma funcionalidade de organização e exibição de tarefas em um gerenciador de tarefas, seguindo a abordagem TDD.
+Este projeto foi desenvolvido como parte da disciplina de Validação e Verificação de Software. Nele, compartilho minha experiência ao implementar uma funcionalidade de organização e exibição de tarefas em um gerenciador, utilizando a abordagem de Test-Driven Development (TDD). 
 
 ## Autor
 
@@ -8,25 +8,29 @@ Este projeto foi desenvolvido como parte da disciplina de Validação e Verifica
 
 **GitHub:** [MarcosDaNight](https://github.com/MarcosDaNight)
 
+## Introdução
+
+Neste projeto, tive minha primeira experiência prática com Test-Driven Development (TDD). Inicialmente, enfrentei algumas dificuldades em compreender como essa metodologia se encaixaria no processo de desenvolvimento. Entretanto, ao seguir a abordagem de escrever os testes primeiro e implementar o código posteriormente, pude perceber a agilidade e a confiabilidade que o TDD proporciona.
+
 ## Experiência de Codar em TDD
 
-Durante o desenvolvimento deste projeto, baseado na necessidade da disciplina, optei por adotar a abordagem de Test-Driven Development (TDD) para implementar a funcionalidade requerida. Esta foi minha primeira experiência em TDD, e ela proporcionou uma compreensão mais profunda sobre como criar software de maneira estruturada, testável e confiável.
+A princípio, a ideia de escrever testes antes do código parecia um tanto contraintuitiva. Porém, à medida que avançava na implementação, percebi que essa abordagem me conduzia a um processo mais estruturado e centrado nos requisitos. Cada teste funcionou como um guia claro para a funcionalidade que estava sendo implementada, o que tornou o desenvolvimento ágil e seguro.
 
-O processo de TDD me incentivou a pensar de forma mais completa sobre os cenários de uso, o que resultou em testes detalhados que abrangiam diferentes situações e comportamentos da funcionalidade. A abordagem iterativa, focada na escrita dos testes primeiro e na implementação posterior, me deu a confiança de que a funcionalidade estava funcionando conforme o esperado, minimizando regressões e problemas.
+O TDD também me incentivou a focar na modularidade e flexibilidade do código. A necessidade de criar testes para cenários diversos me levou a pensar antecipadamente nos possíveis comportamentos e situações de uso. Com o feedback instantâneo dos testes, ganhei confiança de que as alterações não afetariam outras partes do sistema.
 
 ## Vantagens do TDD
 
-A experiência de codar em TDD para este projeto me permitiu experimentar algumas das principais vantagens dessa abordagem:
+Minha jornada em TDD demonstrou diversas vantagens desta abordagem:
 
-- **Especificação Clara:** A escrita dos testes primeiro ajudou a definir claramente o comportamento esperado da funcionalidade.
+- **Especificação Clara:** A escrita de testes primeiro ajudou a definir claramente o comportamento esperado da funcionalidade.
+  
+- **Feedback Rápido:** A execução constante dos testes fornecia um feedback imediato, permitindo identificar problemas rapidamente.
 
-- **Código Mais Robusto:** Os testes agiram como um mecanismo de proteção, evitando regressões e problemas em outras partes do código.
+- **Código Mais Robusto:** Os testes atuaram como um escudo protetor, evitando regressões e problemas em outras partes do código.
+  
+- **Design Melhorado:** O TDD me encorajou a criar código mais modular e coeso, resultando em um design mais sólido.
 
-- **Feedback Rápido:** A execução constante dos testes proporcionou feedback imediato sobre a integridade do código.
-
-- **Melhor Design:** O TDD incentivou a criação de código modular e coeso, resultando em um design mais sólido.
-
-Este repositório reflete minha jornada na implementação de software usando TDD e aprimorando minhas habilidades de desenvolvimento e teste.
+- **Documentação Viva:** Os testes serviram como uma documentação viva, descrevendo os cenários de uso e comportamentos da funcionalidade.
 
 ## Como Usar
 
@@ -35,9 +39,8 @@ Este repositório reflete minha jornada na implementação de software usando TD
 
 ## Contato
 
-Sinta-se à vontade para entrar em contato comigo caso tenha alguma dúvida ou feedback sobre este projeto.
+Fique à vontade para entrar em contato comigo se tiver dúvidas ou quiser discutir mais sobre minha experiência em TDD e este projeto.
 
 **Nome:** Marcos Guillermo de Sá Catão Cosson
 
 **GitHub:** [MarcosDaNight](https://github.com/MarcosDaNight)
-
