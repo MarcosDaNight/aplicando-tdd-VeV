@@ -1,10 +1,17 @@
 package tests.processador_boletos;
 
+import main.processador_boletos.ProcessadorBoleto;
+import main.processador_boletos.entity.Boleto;
+import main.processador_boletos.entity.Fatura;
+import main.processador_boletos.entity.Pagamento;
+import main.processador_boletos.enums.FaturaStatusEnum;
+import main.processador_boletos.enums.PaymentTypeEnum;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class ProcessadorBoletosTest {
 
