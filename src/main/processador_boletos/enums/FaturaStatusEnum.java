@@ -1,5 +1,5 @@
 package main.processador_boletos.enums;
 
 public enum FaturaStatusEnum {
-    PAID
+    NOT_PAID, PENDING, PAID
 }
