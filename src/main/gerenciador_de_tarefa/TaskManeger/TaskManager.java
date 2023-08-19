@@ -2,11 +2,10 @@ package main.gerenciador_de_tarefa.TaskManeger;
 
 import java.util.List;
 import java.util.Comparator;
-import java.util.Timer;
 
-public class TaskManeger {
+public class TaskManager {
     private final TaskDatabase taskDatabase = new TaskDatabase();
-    public TaskManeger() {
+    public TaskManager() {
     }
 
     public Task createTask(String title, String description, String dueDate, Priority priority) {

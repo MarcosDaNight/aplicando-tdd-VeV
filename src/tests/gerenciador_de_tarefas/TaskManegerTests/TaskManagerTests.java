@@ -2,7 +2,7 @@ package tests.gerenciador_de_tarefas.TaskManegerTests;
 
 import main.gerenciador_de_tarefa.TaskManeger.Priority;
 import main.gerenciador_de_tarefa.TaskManeger.Task;
-import main.gerenciador_de_tarefa.TaskManeger.TaskManeger;
+import main.gerenciador_de_tarefa.TaskManeger.TaskManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,16 +10,16 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TaskManegerTests {
-    private TaskManeger taskManager;
+public class TaskManagerTests {
+    private TaskManager taskManager;
 
     @BeforeEach
     public void setUp() {
-        this.taskManager = new TaskManeger();
+        this.taskManager = new TaskManager();
     }
     @Test
     public void testCreateTask() {
-        this.taskManager = new TaskManeger();
+        this.taskManager = new TaskManager();
         Task newTask = taskManager.createTask("Tarefa simples", "Isso é uma tarefa simples", "2023-08-31", Priority.MEDIUM);
 
         assertEquals("Tarefa simples", newTask.getTitle());
