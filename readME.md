@@ -32,6 +32,19 @@ Minha jornada em TDD demonstrou diversas vantagens desta abordagem:
 
 - **Documentação Viva:** Os testes serviram como uma documentação viva, descrevendo os cenários de uso e comportamentos da funcionalidade.
 
+## Autor
+
+**Nome** Hiarly Fernandes de Souto
+
+**Github** [hiarlyfs](https://github.com/hiarlyfs)
+
+## Experiência com TDD
+
+A abordagem do Test-Driven Development (TDD) revelou-se interessante. À medida que os testes eram concebidos, o processo de desenvolvimento do código exibiu uma maior modularização. Ademais, a prática de elaborar os casos de teste antes de iniciar a codificação revelou-se não apenas elucidativa, mas também instigante na abordagem de cenários menos convencionais.
+
+Apesar do potencial atrativo dessa abordagem, é imprescindível possuir uma sólida expertise como programador para efetuar com qualidade a aplicação do TDD. Nisso, reside a importância crítica de possuir um domínio competente na elaboração de testes e um discernimento aguçado das complexidades das regras de negócio subjacentes à aplicação em desenvolvimento.
+
+
 ## Como Usar
 
 1. Clone este repositório.
