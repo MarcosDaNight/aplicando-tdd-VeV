@@ -10,6 +10,7 @@ public class Boleto {
     private final String code;
     private final LocalDate paymentDate;
     private final int value;
+    private Pagamento payment;
 
     public Boleto(String code, LocalDate paymentDate, int value) {
         this.code = code;
@@ -18,8 +19,12 @@ public class Boleto {
     }
 
 
-    public Pagamento getPagamento() {
-        return new Pagamento(value, paymentDate, PaymentTypeEnum.BOLETO);
+    public Pagamento getPayment() {
+        return payment;
+    }
+
+    public void createPayment(PaymentTypeEnum paymentType) {
+        this.payment = new Pagamento(value, paymentDate, paymentType);
     }
 
     public double getValue() {
