@@ -18,6 +18,12 @@ public class Boleto {
         this.value = value;
     }
 
+    public Boleto(Boleto other) {
+        this.code = other.code;
+        this.paymentDate = other.paymentDate;
+        this.value = other.value;
+        this.payment = other.payment;
+    }
 
     public Pagamento getPayment() {
         return payment;
